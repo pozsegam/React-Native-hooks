@@ -1,13 +1,13 @@
 # React-Native-hooks
 
-##UseKeyboard
+## UseKeyboard
 checking if keyboard is active
   ```javascript
   const keyboard = useKeyboard();
   const isActive = keyboard.keyboardShown;
 ```
   
-##UseBackHandler
+## UseBackHandler
 checking if hardware back button pressed on a given page, and calling a callback function
 eg.: asking for logout on HomeScreen with a modal
 
